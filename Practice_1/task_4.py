@@ -13,7 +13,6 @@ Y = int(input())
 Z = (X + (Y / 100)) + ((X + (Y / 100)) * (P / 100))
 Y = Z % 1
 X = Z - Y
-Y = float('{:.2f}'.format(Y))
 
 print(int(X))
 print(float('{:.2f}'.format(Y)))
