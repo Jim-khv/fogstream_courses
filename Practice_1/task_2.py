@@ -9,13 +9,13 @@
 
 V = int(input())
 T = int(input())
-S = 109
+s = 109
 
 if V > 0:
-    S1 = (V * T) % S
+    S = (V * T) % s
     print(S1)
 elif V < 0:
-    S1 = (S +  V * T ) % S
-    print(S1)
+    S = (s + V * T) % s
+    print(S)
 else:
     print(0)
